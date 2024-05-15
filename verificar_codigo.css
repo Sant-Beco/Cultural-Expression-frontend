@@ -1,0 +1,99 @@
+body{
+    background-image: url(Imagenes/fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-size:cover;
+
+}
+
+
+body section{
+    background-color: #fff;
+    width: 800px;
+    height: 670px;
+    margin: auto;
+    border-radius: 8px;
+    margin-top: 150px;
+    margin-bottom: 40px;
+    border-width: 10px;
+    border-style: solid;
+    border-image: linear-gradient(to bottom left, #FF1500, #BB21D3, #F1172A, #BF21C6,#F0182F) 1;
+
+}
+
+body img{
+    width: 130px;
+    height: 130px;
+    margin-left: 110px;
+}
+
+body h1{
+    font-family: jokerman;
+    margin-left: 250px;
+    margin-top: -90px;
+}
+
+body section p{
+    font-size: 33px;
+    font-family: pompiere;
+    margin-top: 100px;
+}
+
+body section h2{
+    font-size: 33px;
+    font-family: pompiere;
+    font-weight: bolder;
+    margin-left: 185px;
+    margin-top: 70px;
+}
+
+
+body  .btn{
+    border: 5px outset #000;
+    font-size: 25px;
+    font-family: pompiere;
+    width: 200px;
+    margin-top: -150px;
+    margin-left: 500px;
+}
+
+
+
+
+.logos{
+    width: 100px;
+    height: 100px;
+    margin-left: 150px;
+}
+
+
+/*.form-control{
+    margin-left: 200px;
+    margin-top: -20px;
+    
+}
+
+.form-label{
+    margin-left: 200px;
+    margin-top: -20px;
+}
+*/
+
+body i{
+    font-size: 60px;
+    color: #000;
+    font-weight: 100px;
+    margin-left: -800px;
+}
+
+.salir{
+    background: none;
+    margin-top: 100px;
+    margin-left: -300px;
+}
+
+body div .hola{
+    margin-left: 200px;
+}
