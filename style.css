@@ -1,0 +1,541 @@
+/* Style of admin */
+
+.body-admin{
+  background: #f0dafb;
+  font-family: pompiere;
+  font-size: 25px;
+}
+
+.logo{
+  width: 103px;
+  height: 103px;
+}
+
+.titulo{
+  font-size: 34px;
+  font-family: jokerman;
+}
+
+.titulo-dos{
+  font-size: 20px;
+  font-family: pompiere; 
+}
+
+.bi{
+  width: 103px;
+  height: 120px;
+}
+
+.nombre{
+  font-size: 20px;
+  background-image: url(../img/fondo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+.header{
+  background: linear-gradient(to right,#933E2B,8%,#FF1500, #933E2B);
+}
+
+.sebas{
+  background: #f0dafb;
+}
+
+.form{
+  width: 500px;
+  height: 50px;
+}
+
+.buscar{
+  width: 50px;
+  height: 50px;
+} 
+
+/* Estilo nav */
+
+.contenedor-nav{
+  margin: 0;
+  padding: 0;
+}
+
+.nav-menu{
+  margin-top: 20px;
+}
+
+.nav-a{
+  background: #FF1500;
+  width: 200px;
+  height: 40px;
+  text-decoration: none;
+  color: #fff;
+  border: 2px solid #000;
+  text-align: center;
+}
+
+.nav-a:hover{
+  color: #cc2df4;
+}
+
+.nav-i{
+  margin: 0 8px;
+  padding: 0;
+  height: 42px;
+  color: #000;
+}
+
+.nav-i:hover{
+  color: #cc2df4;
+}
+
+.nav-menu ul{
+  width: 200px;
+  padding: 0;
+}
+
+.nav-menu ul li{
+  display: flex;
+  align-items: start;
+  height: 30px;
+  margin-bottom: 12px;
+}
+
+/* Estilos img */
+
+.img-ini{
+  margin: 20px 0;
+  border: 2px solid #000;
+  width: 910px;
+  height: auto;
+  margin-left: 60px;
+}
+
+.fecha{
+  display: inline;
+}
+
+/* Estilos footer*/
+
+.footer{
+  background: linear-gradient(to right,#933E2B,8%,#FF1500, #933E2B);
+  bottom: 0;
+}
+
+.icono-footer{
+  width: 103px;
+}
+
+.footer-enlace{
+  color: #000;
+  text-decoration: none;
+}
+
+.footer-enlace:hover{
+  color: #cc2df4;
+  text-decoration: none;
+}
+
+.footer-siguenos{
+  display: inline-flex;
+  justify-content: center;
+}
+
+.texto-footer{
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.redes a{
+  text-decoration: none;
+}
+
+.bi-facebook{
+  color: #2430d3;
+  width: 40px; 
+  height: 40px;
+}
+
+.bi-facebook:hover{
+  color: #cc2df4;
+  width: 40px; 
+}
+
+
+.bi-instagram{
+  color: #f80f8f;
+  width: 40px; 
+  height: 40px;
+}
+
+.bi-instagram:hover{
+  color: #cc2df4;
+  width: 40px;
+}
+
+.bi-envelope-at-fill{
+  color: #00c3ff;
+  width: 40px; 
+  height: 40px;
+}
+
+.bi-envelope-at-fill:hover{
+  color: #cc2df4;
+  width: 40px;
+}
+
+.text-reservado{
+  background: #000;
+  color: #fff;
+}
+
+/* Style producto */
+
+.icono-nombre{
+  display: flex;
+  margin-top: 20px;
+}
+
+.icono-user-pro{
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.nombre-fredy{
+  margin: 0;
+}
+
+.fecha-produ{
+  font-size: 18px;
+}
+
+.caja-inhabilitar{
+  padding: 0;
+}
+
+.boton-inhabilitar{
+  margin-top: 330px;
+  padding: 0;
+}
+
+.boton-habilitar{
+  margin-top: 480px;
+  padding: 0;
+}
+
+main .inhabilitar .form-check-input{
+  width: 80PX; 
+  height: 40PX;
+  margin-right: 20px;
+
+}
+
+main .inhabilitar .form-check-label{
+  font-size: 25px;
+  font-family: pompiere;
+}
+
+.img-pro{
+  margin: 20px 0;
+  border: 2px solid #000;
+  /* width: 800px;
+  height: auto; */
+  margin-left: 60px;
+}
+
+.img-produ{
+  max-width: 100%;
+  height: a;
+}
+
+
+
+/* Style of regis_usuario */
+
+.formulario-registro{
+  background: #d9d9d9;
+  width: 750px;
+  height: 760px;
+  padding: 20px 100px;
+}
+
+.x-olvi-registro{
+  width: 46px;
+  height: 46px;
+  padding: 0;
+  margin-left: 580px;
+  margin-top: -210px;
+}
+
+.titulo-registro{
+  font-family: jokerman;
+  font-size: 30px;
+  width: 300px;
+}
+
+.border-formularios{
+  border: 10px solid;
+  border-image: linear-gradient(to bottom left, #FF1500, #BB21D3, #F1172A, #BF21C6,#F0182F) 1;
+}
+
+.body-form{
+  background-image: url(img/fondo-form.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-size:cover;
+}
+
+.icono-form{
+  width: 103px;
+}
+
+.aside-caja{
+  margin:20px 0;
+}
+
+.boton-agregar{
+  background: #cc2df4;
+  font-weight: 600;
+  width: 190px;
+  height: 50px;
+  margin-top: 30px;
+}
+
+.contra-verifi{
+  margin-top: 30px;
+}
+
+.boton-agregar:hover{
+  background: #d76df1;
+  font-weight: 600;
+}
+
+.form-control{
+  border-bottom: 4px solid #000;
+  border-radius: 20px;
+}
+
+.enlace-form{
+  text-decoration: none;
+}
+
+.enlace-form{
+  color: #000;
+  text-decoration: none;
+}
+
+.enlace-form:hover{
+  color: #cc2df4;
+  text-decoration: none;
+}
+
+.espacio-abajo{
+  margin-bottom: 0;
+}
+
+.x-registro{
+  color: #000;
+  
+}
+
+
+
+
+/* Style of category */
+
+.section-categoria{
+  margin:20px 0;
+  border: 10px solid #000;
+}
+
+.form-cate{
+  background: #d9d9d9;
+  width: 600px;
+  height: 420px;
+  padding: 18px;
+  border-image: linear-gradient(to bottom left, #FF1500, #BB21D3, #F1172A, #BF21C6,#F0182F) 1;
+}
+
+.titulo-categoria{
+  margin-left: 40px;
+}
+
+.div-icono-titu{
+  margin: 0;
+}
+
+.div-espacio{
+  padding-top: 0;
+}
+
+.div-registro{
+  margin-bottom: 0;
+  height: 40px;
+}
+
+.boton-agregar{
+  background: #cc2df4;
+  font-family: pompiere;
+  font-size: 25px;
+  padding: 4px;
+}
+
+.boton-agregar:hover{
+  background: #d76df1;
+}
+
+/* style olvide contraseña */
+
+.form-olvide{
+  background: #d9d9d9;
+  width: 750px;
+  height: 600px;
+  padding: 18px;
+  padding: 20px 100px;
+}
+
+.titulo-olvide{
+  font-family: jokerman;
+  font-size: 30px;
+  width: 700px;
+}
+
+.logo-olvide{
+  width: 103px;
+  height: 103px;
+  margin-left: 20px;
+}
+
+.parrafo-olvide{
+  font-size: 28px;
+  font-family: pompiere;
+}
+
+.logo-registro{
+  width: 103px;
+  height: 103px;
+  margin-left: 120px;
+}
+
+.titulo-olvi{
+  font-family: jokerman;
+  width: 300px;
+}
+
+.enlace-olvide{
+  margin-top: 50px;
+}
+
+/* style formulario publicacion */
+
+.boton-categoria-sele{
+  font-size: 18px;
+}
+
+.boton-agregar-publi{
+  margin: 8px;
+  font-size: 25px;
+  background: #cc2df4;
+  font-weight: 600;
+  margin-top: 40px;
+}
+
+.boton-agregar-publi:hover{
+  background: #d76df1;
+}
+
+/* style formulario convocatoria */
+
+.form-convocatoria{
+  background: #d9d9d9;
+  width: 700px;
+  height: 760px;
+  padding: 10px 60px;
+  border: 10px solid;
+  border-image: linear-gradient(to bottom left, #FF1500, #BB21D3, #F1172A, #BF21C6,#F0182F) 1;
+}
+
+.x-convo{
+  width: 46px;
+  height: 46px;
+  padding: 0;
+  margin-left: 570px;
+  margin-top: -200px;
+}
+
+/* style formulario producto */
+
+.form-produ{
+  background: #d9d9d9;
+  width: 700px;
+  height: 690px;
+  padding: 10px 60px;
+}
+
+.x-olvi{
+  width: 32px;
+  height: 32px;
+  margin-left: 140px;
+}
+
+.titulo-olvi{
+  font-family: jokerman;
+  width: 300px;
+}
+
+.logo-registro{
+  width: 103px;
+  height: 103px;
+  margin-left: 60px;
+}
+
+.x-produ{
+  width: 46px;
+  height: 46px;
+  padding: 0;
+  margin-left: 560px;
+  margin-top: -200px;
+}
+
+/* foto de perfil */
+
+.upload-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#uploadInput {
+  display: none;
+}
+
+#uploadLabel {
+  display: inline-block;
+  cursor: pointer;
+  padding: 0 10px;
+  border: 2px solid #000;
+  border-bottom: 6px solid #000;
+  border-radius: 5px;
+}
+
+#uploadLabel img {
+  width: 50px;
+  height: 50px;
+}
+
+.preview-container {
+  margin: 0 20px;
+}
+
+.preview-image {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.icono-subir{
+  width: 60px;
+}

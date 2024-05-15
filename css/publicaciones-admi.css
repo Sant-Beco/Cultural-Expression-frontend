@@ -1,0 +1,482 @@
+/*Encabezado*/
+
+body{
+    background: #F0DAFB;
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.primero{
+    background:linear-gradient(to right,#933E2B,8%,#FF1500, #933E2B);
+}
+
+.titulo{
+    font-family: Jokerman;
+    font-family: 28px;
+}
+
+.titulo-admin{
+    font-family: pompiere;
+    font-size: 36px;
+}
+
+.icono{
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.nombre{
+    font-size: 20px;
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+  }
+
+.nombre{
+    background-image: url(../img/fondo.jpg);
+}
+
+.img-center{
+    width: 130px;
+    height: 130px;
+}
+
+
+.tex2{
+    font-family: pompiere;
+    font-size: 25px;
+}
+
+.bi{
+    width: 120px;
+    height: 120px;
+}
+
+.nombre{
+    font-family: pompiere;
+    font-size: 25px;
+}
+
+
+.buscar{
+    width: 30px;
+    height: 30px;
+}
+
+
+/*BARRA DE BUSQUEDAD*/
+.busca{
+    width: 100%;
+    background: #fff;
+    border: none;
+    font-size: 25px;
+    font-family: pompiere;
+    padding: 0 10px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 3px 0 0 3px ;
+}
+
+button{
+    width: 4%;
+    background: #fff;
+    border: none;
+    font-family: pompiere;
+    font-size: 25px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+    color: black;
+}
+
+button:hover{
+    background: #d918eb;
+    color: #fff;
+}
+
+                    
+
+/*BARRA DE ICONOS*/
+main .barra-lateral-izquierda nav a{
+    font-family: pompiere;
+    color: #000;
+}
+
+
+main .barra-lateral-izquierda nav a .ico{
+    width:50px;
+    height: 50px;
+}
+
+
+
+main .barra-lateral-izquierda nav a .ico:hover{
+    background-color: #d918eb;
+    
+}
+
+
+main .barra-texto-izquierdo nav .list-group-item{
+    font-size: 25px;
+    font-family: Pompiere;
+    background:linear-gradient(to right,#933E2B,8%,#FF1500, #933E2B);
+    width: 80%;
+}
+
+main .barra-texto-izquierdo nav a{
+    font-family: pompiere;
+    color: #fff;
+}
+
+
+main .barra-texto-izquierdo nav .list-group-item:hover{
+    background: #d918eb;
+    color: #000;
+}
+
+
+main .imagen-usuario img{
+    width: 100px;
+    height: 100px;
+}
+
+main .contenido .Publicaciones a i .ico{
+    width:90px;
+    height: 90px;
+}
+
+main .contenido .Publicaciones a {
+    color: #000;
+    text-decoration: none;
+    font-family: Pompiere;
+    font-size: 25px;
+}
+
+
+main .publi{
+    width: 900px;
+    height: 600px;
+}
+
+main   .infromacion {
+    border-bottom: 2px solid #000;
+    padding-bottom: 20px;
+}
+main .contenido .Publicaciones p{
+    font-family: pompiere;
+    font-size: 25px;
+
+
+}
+
+/* 
+main .contenido .Publicaciones{
+    border-bottom: 2px solid #000;
+    padding-bottom: 20px;
+}
+*/
+
+main .inhabilitar .form-check-input{
+    width: 80PX; 
+    height: 40PX;
+    margin-right: 20px;
+
+}
+
+main .inhabilitar .form-check-label{
+    font-size: 25px;
+    font-family: pompiere;
+
+}
+
+/* Estilos */
+
+.footer{
+    font-family: pompiere;
+}
+
+.bienvenidos{
+    background: linear-gradient(to right,#933E2B,8%,#FF1500, #933E2B);
+}
+
+.icono-footer{
+    width: 130px;
+}
+
+.cultural{
+    width: 170px;
+    height: 170px;
+}
+
+.Info{
+    font-size: 20px;
+}
+  
+.footer-enlace{
+    color: #000;
+    text-decoration: none;
+}
+  
+.footer-enlace:hover{
+    color: #cc2df4;
+    text-decoration: none;
+}
+  
+
+    
+.Siguenos{
+    margin-bottom: 0%;
+    font-family: pompiere;
+    font-size: 25px;
+}
+
+  
+.text-reservado{
+    background: #000;
+    color: #fff;
+    font-family: pompiere,sans-serif;
+    font-size: 20px;  
+}
+
+.redes a{
+    text-decoration: none;
+}
+
+/*  menu-desktop tiago */
+
+/*
+.menu-desktop{
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    top: 220px;
+    margin-bottom: 0;   
+    cursor: pointer;
+    margin-top: 120px;
+}
+
+.menu-desktop a{
+    display: flex;
+    text-decoration: none;
+    color: #000;
+    margin-top: 0;
+    width: 50px;
+    height: 44px;
+    padding-left: 18px;
+    margin: 6px;
+}
+
+.menu-desktop-texto{
+    position: fixed;
+    padding-left: 80px;
+}
+
+.menu-desktop-texto ul{
+    width: 340px;
+}
+
+*/
+
+/* 
+.menu-desktop-texto{
+    position: fixed;
+    left: 60px;
+    top: 205px;
+    cursor: pointer;
+}
+
+.menu-desktop-texto a{
+    text-decoration: none;
+    color: #000;
+    width: 50px;
+    height: 50px;
+    padding-left: 18px;
+    margin: 6px;
+} */
+
+
+/*  menu movil tiago */
+
+.menu-movil{
+    display: flex;
+    background: #fff;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 0;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 120px;
+}
+
+.nav-movil{
+    height: 60px;
+}
+
+.nav-i{
+    height: 37px;
+}
+
+.menu-movil li{
+    list-style-type: none;
+}
+
+.menu-movil a{
+    display: flex;
+    text-decoration: none;
+    color: #000;
+    width: 50px;
+    height: 50px;
+    padding-left: 18px;
+    margin: 6px;
+}
+
+.menu-movil a{
+    width: 70px;
+}
+
+.menu-movil a:hover{
+    color: #cc2df4;
+}
+
+/*
+main .barra-lateral-izquierda{
+    width: 85%;
+    position: fixed;
+}
+
+main .barra-texto-izquierdo{
+    width: 85%;
+    position: fixed;
+}
+*/
+
+
+
+.bi-facebook{
+  color: #2430d3;
+  width: 40px; 
+  height: 40px;
+}
+
+.bi-facebook:hover{
+  color: #cc2df4;
+  width: 40px; 
+}
+
+
+.bi-instagram{
+  color: #f80f8f;
+  width: 40px; 
+  height: 40px;
+}
+
+.bi-instagram:hover{
+  color: #cc2df4;
+  width: 40px;
+}
+
+.bi-envelope-at-fill{
+  color: #00c3ff;
+  width: 40px; 
+  height: 40px;
+}
+
+.bi-envelope-at-fill:hover{
+  color: #cc2df4;
+  width: 40px;
+}
+
+/* Style of category */
+
+.icono-form{
+    width: 103px;
+    height: 103px;
+}
+
+.aside-caja{
+    margin:20px 0;
+  }
+  
+  .form-cate{
+    background: #d9d9d9;
+    width: 480px;
+    height: 390px;
+    padding: 18px;
+    border: 2px solid #FF1500;
+  }
+  
+  .div-icono-titu{
+    margin: 0;
+  }
+  
+  .div-espacio{
+    padding-top: 0;
+  }
+  
+  .div-registro{
+    margin-bottom: 0;
+    height: 40px;
+  }
+  
+  .boton-agregar{
+    background: #cc2df4;
+    font-family: pompiere;
+    font-size: 25px;
+    padding: 4px;
+    width: 120px;
+    height: 80px;
+  }
+  
+  .boton-agregar:hover{
+    background: #d76df1;
+  }
+
+.catagorias-existen{
+    background: linear-gradient(to right,#933E2B,8%,#FF1500, #933E2B);
+    width: 200px;
+    height: 50px;
+    padding: 6px;
+}
+
+/* Tabla categoria */
+
+.tabla-categoria{
+    background: #cc2df4;
+}
+
+.boton-categoria a{
+    background: linear-gradient(to right,#933E2B,8%,#FF1500, #933E2B);
+    width: 160px;
+    color: #fff;
+}
+
+  /* Estilos para botones de sweetalert */
+
+  .boton-style{
+    width: 220px;
+    height: 50px;
+    font-size: 25px;
+    font-family: pompiere;
+    border-radius: 50px;
+    color: #000000;
+    cursor: pointer;
+  }
+  
+  .boton-style:hover{
+    border-radius: 50px;
+  }
+
+/* style graficas*/
+
+.estado{
+    width: 200px;
+}
