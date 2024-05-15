@@ -1,0 +1,423 @@
+/*Encabezado*/
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(img/Fondo_Cultural_Expression.jpeg);
+    background-position: center center;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: pompiere;
+}
+
+.primero{
+    background:linear-gradient(to right,#933E2B,8%,#FF1500, #933E2B);
+}
+
+.titulo{
+    font-family: Jokerman;
+    font-family: 28px;
+}
+
+.icono-perfil{
+    color: #000000;
+}
+
+.img-center{
+    width: 130px;
+    height: 130px;
+}
+
+
+.tex2{
+    font-family: pompiere;
+    font-size: 28px;
+}
+
+.bi{
+    width: 120px;
+    height: 120px;
+}
+
+.nombre{
+    font-family: pompiere;
+    font-size: 25px;
+}
+
+
+/*Estilos la barra y el booton de crear publicacion*/
+
+.container-barra-busqueda{
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#que-quieres-buscar{
+    font-size: 20px;
+}
+
+.icono-lupa{
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+}
+
+.contenedor-boton{
+    margin-right: 30px;
+}
+
+.btn-crear{
+    width: 200px;
+    height: 40px;
+    margin-left: 30px;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid black;
+    color: rgb(0, 0, 0);
+    background-color: #da18eb63;
+    font-family: pompiere;
+    font-size: 20px;
+}
+
+
+.btn-crear:hover{
+    background-color: #ffffff63;
+}
+
+.buscar{
+    width: 30px;
+    height: 30px;
+}
+
+.busca{
+    width: 100%;
+    height: 40px;
+    background: #e7050507;
+    border: none;
+    font-size: 25px;
+    font-family: pompiere;
+    padding: 0 10px;
+    line-height: 40px;
+    border-radius: 3px 0 0 3px ;
+}
+
+
+/*Barra de DE ICONOS*/
+
+.contenedor-iconos-nav{
+    display: flex;
+    background: #fff;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 90px;
+    cursor: pointer;
+    margin-top: auto;
+}
+
+main .barra-lateral-izquierda nav a{
+    font-family: pompiere;
+    color: #000000;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+main .barra-lateral-izquierda nav a .ico{
+    width: 45px;
+    height: 45px;
+}
+
+main .barra-lateral-izquierda nav a .ico:hover{
+    color: #d918eb;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+main .barra-texto-izquierdo nav .list-group-item{
+    font-size: 25px;
+    font-family: Pompiere;
+    background:linear-gradient(to right,#933E2B,8%,#FF1500, #933E2B);
+    width: 80%;
+}
+
+main .barra-texto-izquierdo nav a{
+    font-family: pompiere;
+    color: #fff;
+}
+
+main .barra-texto-izquierdo nav .list-group-item:hover{
+    background: #d918eb;
+    color: #000;
+}
+
+main .imagen-usuario img{
+    width: 100px;
+    height: 100px;
+}
+
+.border-info-convocatoria{
+    border: 2px solid white;
+    padding: 5px;
+}
+
+.contenido .convocatorias a i .ico{
+    width: 50px;
+    height: 50px;
+    color: #000000;
+    margin: 0;
+}
+
+.contenido .convocatorias a {
+    color: #000000;
+    text-decoration: none;
+    font-family: Pompiere;
+    font-size: 25px;
+}
+
+.informacion{
+    border-bottom: 2px solid #000;
+    padding-bottom: 20px;
+    font-family: pompiere; 
+}
+
+.contenido .convocatorias p{
+    font-family: pompiere;
+    font-size: 25px;
+}
+
+.contenedor-fechas-ini-fin{
+    display: flex;
+}
+
+.fecha-inicio{
+    padding-right: 30px;
+}
+
+.iconos-reaccion{
+    margin-top: 20px;
+    line-height: normal;
+}
+
+.comentario{
+    margin-left: 50px;
+    width: 30px;
+    height: 30px;
+}
+
+
+/*---------------------*/
+
+
+
+.heart-btn{
+    position: relative;
+    margin-right: 30px;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+.heart{
+    position: absolute;
+    background: url("img.png") no-repeat;
+    background-size: 2900%;
+    height: 100px;
+    width: 100px;
+    transform: translate(-50%,-50%);
+}
+
+.heart.heart-active{
+    animation: animate .8s steps(28) 1;
+    background-position: right;
+}
+
+
+@keyframes animate {
+    0%{
+      background-position: left;
+    }
+    100%{
+      background-position: right;
+    }
+}
+  
+
+
+
+
+
+/*---------------------*/
+
+
+
+
+
+/* 
+main .contenido .Publicaciones{
+    border-bottom: 2px solid #000;
+    padding-bottom: 20px;
+}
+*/
+
+
+
+/* Estilos footer*/
+
+.bienvenidos{
+    background: linear-gradient(to right,#933E2B,8%,#FF1500, #933E2B);
+}
+
+.icono-footer{
+    width: 130px;
+}
+
+.cultural{
+    width: 170px;
+    height: 170px;
+}
+
+.Info{
+    font-size: 25px;
+    font-family: pompiere;
+}
+  
+.footer-enlace{
+    color: #000;
+    text-decoration: none;
+}
+  
+.footer-enlace:hover{
+    color: #fff;
+    text-decoration: none;
+}
+  
+
+    
+.Siguenos{
+    margin-bottom: 0%;
+    font-family: pompiere;
+    font-size: 25px;
+}
+
+  
+.text-reservado{
+    background: #000;
+    color: #fff;
+    font-family: pompiere,sans-serif;
+    font-size: 25px;
+}
+
+
+.btn-menu{
+   text-decoration: none;
+    border: 1px solid;
+    padding: 5px 10px;
+    font-size: 25px;
+    background: #fff;
+    cursor: pointer;
+    color: #000;
+    align-items: center;
+
+}
+
+.btn-menu i .lista{
+    width: 30px;
+    height: 30px;
+    margin-left: 80px;
+}
+
+/*
+main .barra-lateral-izquierda{
+    width: 85%;
+    position: fixed;
+}
+
+main .barra-texto-izquierdo{
+    width: 85%;
+    position: fixed;
+}
+*/
+
+
+
+.bi-facebook{
+  color: #2430d3;
+  width: 40px; 
+  height: 40px;
+}
+
+.bi-facebook:hover{
+  color: #cc2df4;
+  width: 40px; 
+}
+
+
+.bi-instagram{
+  color: #f80f8f;
+  width: 40px; 
+  height: 40px;
+}
+
+.bi-instagram:hover{
+  color: #cc2df4;
+  width: 40px;
+}
+
+.bi-envelope-at-fill{
+  color: #00c3ff;
+  width: 40px; 
+  height: 40px;
+}
+
+.bi-envelope-at-fill:hover{
+  color: #cc2df4;
+  width: 40px;
+}
+
+
+
+
+
+
+/* Estilo nav movil */
+  
+.menu-movil{
+    display: flex;
+    background: #fff;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 0;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 120px;
+}
+
+.nav-movil{
+    height: 50px;
+}
+
+.nav-i{
+    height: 37px;
+}
+
+.menu-movil li{
+    list-style-type: none;
+}
+
+.menu-movil a{
+    display: flex;
+    text-decoration: none;
+    color: #000;
+    width: 50px;
+    height: 50px;
+}
+
+.menu-movil a:hover{
+    color:#cc2df4;
+}

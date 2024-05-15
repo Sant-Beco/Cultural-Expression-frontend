@@ -1,0 +1,206 @@
+.navbar-brand img{
+    max-width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.custom-title{
+    font-size: 28px;
+    font-family: jokerman;
+}
+
+
+.custom-slogan{
+    font-size: 20px;
+    font-family: pomperie;
+}
+
+.navbar-nav{
+    font-family: pomperie;
+    font-size: 17px;
+    text-align: end;
+    padding: 2;
+}
+
+.icono-ayuda{
+    margin-left: 40px;
+}
+
+.icono-registro{
+    margin-right: 40px;
+}
+
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.video-banner{
+    width: 80%;
+    background-color: #000;
+    margin: 1px;
+}
+
+.contenedor{
+    width: 30%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1px;
+}
+
+.custom-video-cultura,
+.custom-video-arte,
+.custom-video-deporte {
+    margin: 1px;
+    background-color: #ffffff;
+}
+
+.phrase-1{
+    font-family: pompiere;
+    font-size: 20px;
+    text-align: center;
+}
+
+.carusel-item{
+    justify-content: center;
+    align-items: center;
+}
+
+.phrase-2{
+    font-family: pompiere;
+    font-size: 20px;
+    text-align: center;
+}
+
+.separador{
+    border-bottom: 1px solid #000;
+    width: auto;
+    margin: auto; /*Centro la raya de separacion*/
+}
+
+.contenido-cards{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    padding-left: 50px;
+}
+
+.card-title{
+    font-family: pompiere;
+    text-align: center;
+}
+
+.card-text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 20px;
+}
+
+.card{
+    border-radius: 5px;
+    box-shadow: 10px 5px 10px rebeccapurple;
+}
+
+
+/* Estilos footer*/
+
+.bienvenidos{
+    background: linear-gradient(to right,#933E2B,8%,#FF1500, #933E2B);
+}
+
+.icono-footer{
+    width: 130px;
+}
+
+.cultural{
+    width: 170px;
+    height: 170px;
+}
+.Info{
+    font-size: 20px;
+    font-family: pompiere;
+}
+  
+.footer-enlace{
+    color: #000;
+    text-decoration: none;
+}
+  
+.footer-enlace:hover{
+    color: #fff;
+    text-decoration: none;
+}
+  
+
+    
+.Siguenos{
+    margin-bottom: 0%;
+    font-family: pompiere;
+    font-size: 25px;
+}
+
+  
+.text-reservado{
+    background: #000;
+    color: #fff;
+    font-family: pompiere,sans-serif;
+    font-size: 20px;
+}
+
+
+.btn-menu{
+   text-decoration: none;
+    border: 1px solid;
+    padding: 5px 10px;
+    font-size: 14px;
+    background: #fff;
+    cursor: pointer;
+    color: #000;
+    align-items: center;
+
+}
+
+.btn-menu i .lista{
+    width: 30px;
+    height: 30px;
+    margin-left: 80px;
+}
+
+
+
+.bi-facebook{
+  color: #2430d3;
+  width: 40px; 
+  height: 40px;
+}
+
+.bi-facebook:hover{
+  color: #cc2df4;
+  width: 40px; 
+}
+
+
+.bi-instagram{
+  color: #f80f8f;
+  width: 40px; 
+  height: 40px;
+}
+
+.bi-instagram:hover{
+  color: #cc2df4;
+  width: 40px;
+}
+
+.bi-envelope-at-fill{
+  color: #00c3ff;
+  width: 40px; 
+  height: 40px;
+}
+
+.bi-envelope-at-fill:hover{
+  color: #cc2df4;
+  width: 40px;
+}

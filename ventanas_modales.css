@@ -1,0 +1,15 @@
+.boton-style{
+    width: 220px;
+    height: 50px;
+    font-size: 20px;
+    font-family: cursive;
+    border-radius: 5px;
+    background: #cc2df4;
+    color: #ffffff;
+}
+  
+.boton-style:hover{
+    border-radius: 10px;
+    background: #af0496;
+    color: #ffffff;
+}
