@@ -1,0 +1,12 @@
+.row{
+    background-color: thistle;
+    padding: 10px;
+    margin: 10px;
+    height: 300px;
+    width: 500px;
+}
+
+.col{
+    background-color: white;
+    margin: 5px;
+}

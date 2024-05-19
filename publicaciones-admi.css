@@ -1,0 +1,336 @@
+/*Encabezado*/
+
+body{
+    background: #F0DAFB;
+    background-image: url(img/Fondo_Cultural_Expression.jpeg);
+    background-position: center center;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: sans-serif;
+    margin: 0;
+}
+.primero{
+    background:linear-gradient(to right,#933E2B,8%,#FF1500, #933E2B);
+}
+
+.titulo{
+    font-family: Jokerman;
+    font-family: 28px;
+}
+.icono{
+    background-color: #F0DAFB;
+    display: flex;
+    
+    
+}
+
+
+.img-center{
+    width: 130px;
+    height: 130px;
+}
+
+
+.tex2{
+    font-family: pompiere;
+    font-size: 25px;
+}
+
+.bi{
+    width: 120px;
+    height: 120px;
+}
+
+.nombre{
+    font-family: pompiere;
+    font-size: 25px;
+}
+
+
+.buscar{
+    width: 30px;
+    height: 30px;
+}
+
+
+/*BARRA DE BUSQUEDAD*/
+.busca{
+    width: 100%;
+    background: #fff;
+    border: none;
+    font-size: 25px;
+    font-family: pompiere;
+    padding: 0 10px;
+    height: 40px;
+    line-height: 0px;
+    border-radius: 3px 0 0 3px ;
+}
+
+button{
+    width: 4%;
+    background: #fff;
+    border: none;
+    font-family: pompiere;
+    font-size: 25px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+    color: black;
+}
+
+button:hover{
+    background: #d918eb;
+    color: #fff;
+}
+                    
+
+/*BARRA DE ICONOS*/
+main .barra-lateral-izquierda nav a{
+    font-family: pompiere;
+    color: #000;
+}
+
+
+main .barra-lateral-izquierda nav a .ico{
+    width:50px;
+    height: 50px;
+}
+
+
+
+main .barra-lateral-izquierda nav a .ico:hover{
+    background-color: #d918eb;
+    
+}
+
+
+main .barra-texto-izquierdo nav .list-group-item{
+    font-size: 25px;
+    font-family: Pompiere;
+    background:linear-gradient(to right,#933E2B,8%,#FF1500, #933E2B);
+    width: 80%;
+}
+
+main .barra-texto-izquierdo nav a{
+    font-family: pompiere;
+    color: #fff;
+}
+
+
+main .barra-texto-izquierdo nav .list-group-item:hover{
+    background: #d918eb;
+    color: #000;
+}
+
+
+main .imagen-usuario img{
+    width: 100px;
+    height: 100px;
+}
+
+main .contenido .Publicaciones a i .ico{
+    width:90px;
+    height: 90px;
+    color: #000;
+}
+
+main .contenido .Publicaciones a {
+    color: #000;
+    text-decoration: none;
+    font-family: Pompiere;
+    font-size: 25px;
+}
+
+
+main .publi{
+    width: 900px;
+    height: 600px;
+}
+
+main   .infromacion {
+    border-bottom: 2px solid #000;
+    padding-bottom: 20px;
+}
+main .contenido .Publicaciones p{
+    font-family: pompiere;
+    font-size: 25px;
+
+
+}
+
+/* 
+main .contenido .Publicaciones{
+    border-bottom: 2px solid #000;
+    padding-bottom: 20px;
+}
+*/
+
+main .inhabilitar .form-check-input{
+    width: 80PX; 
+    height: 40PX;
+    margin-right: 20px;
+
+}
+
+main .inhabilitar .form-check-label{
+    font-size: 25px;
+    font-family: pompiere;
+
+}
+
+/* Estilos footer*/
+.bienvenidos{
+    background: linear-gradient(to right,#933E2B,8%,#FF1500, #933E2B);
+}
+
+.icono-footer{
+    width: 130px;
+}
+
+.cultural{
+    width: 170px;
+    height: 170px;
+}
+.Info{
+    font-size: 20px;
+    font-family: pompiere;
+}
+  
+.footer-enlace{
+    color: #000;
+    text-decoration: none;
+}
+  
+.footer-enlace:hover{
+    color: #fff;
+    text-decoration: none;
+}
+  
+
+    
+.Siguenos{
+    margin-bottom: 0%;
+    font-family: pompiere;
+    font-size: 25px;
+}
+
+  
+.text-reservado{
+    background: #000;
+    color: #fff;
+    font-family: pompiere,sans-serif;
+    font-size: 20px;
+}
+
+
+.btn-menu{
+   text-decoration: none;
+    border: 1px solid;
+    padding: 5px 10px;
+    font-size: 14px;
+    background: #fff;
+    cursor: pointer;
+    color: #000;
+    align-items: center;
+
+}
+
+.btn-menu i .lista{
+    width: 30px;
+    height: 30px;
+    margin-left: 80px;
+}
+/*
+main .barra-lateral-izquierda{
+    width: 85%;
+    position: fixed;
+}
+
+main .barra-texto-izquierdo{
+    width: 85%;
+    position: fixed;
+}
+*/
+
+
+
+.bi-facebook{
+  color: #2430d3;
+  width: 40px; 
+  height: 40px;
+}
+
+.bi-facebook:hover{
+  color: #cc2df4;
+  width: 40px; 
+}
+
+
+.bi-instagram{
+  color: #f80f8f;
+  width: 40px; 
+  height: 40px;
+}
+
+.bi-instagram:hover{
+  color: #cc2df4;
+  width: 40px;
+}
+
+.bi-envelope-at-fill{
+  color: #00c3ff;
+  width: 40px; 
+  height: 40px;
+}
+
+.bi-envelope-at-fill:hover{
+  color: #cc2df4;
+  width: 40px;
+}
+
+.amigo{
+    margin-left: 50px;
+}
+
+.barra{
+    margin-left: 250px;
+}
+
+.boton{
+    border: 2px solid;
+    background: #2430d3;
+    width: 100px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+.recuadro{
+    border: 3px solid #000;
+    background: grey;
+    height: 500PX;
+    display: flex;
+}
+
+.search-result {
+    font-size: 20px; /* Tamaño de letra más grande */
+}
+.search-result:not(:last-child) {
+    border-bottom: 1px solid #ccc; /* Línea divisoria entre resultados */
+    padding-bottom: 10px; /* Espacio entre resultados */
+    margin-bottom: 10px; /* Espacio entre resultados */
+}
+
+.recuadro {
+    display: flex;
+}
+.resultados {
+    flex-grow: 1;
+    padding-right: 20px;
+}
+.chat {
+    width: 200px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}

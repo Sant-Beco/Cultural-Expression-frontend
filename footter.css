@@ -1,0 +1,72 @@
+.footer{
+    background: linear-gradient(to right,#933E2B,8%,#FF1500, #933E2B);
+    bottom: 0;
+    font-family: 'pompiere';
+  }
+  
+  .icono-footer{
+    width: 103px;
+  }
+  
+  .footer-enlace{
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .footer-enlace:hover{
+    color: #cc2df4;
+    text-decoration: none;
+  }
+  
+  .footer-siguenos{
+    display: inline-flex;
+    justify-content: center;
+    font-family: 'pompiere';
+  }
+  
+  .texto-footer{
+    margin-bottom: 0;
+  }
+  
+  .redes a{
+    text-decoration: none;
+  }
+  
+  .bi-facebook{
+    color: #2430d3;
+    width: 40px; 
+    height: 40px;
+  }
+  
+  .bi-facebook:hover{
+    color: #cc2df4;
+    width: 40px; 
+  }
+  
+  
+  .bi-instagram{
+    color: #f80f8f;
+    width: 40px; 
+    height: 40px;
+  }
+  
+  .bi-instagram:hover{
+    color: #cc2df4;
+    width: 40px;
+  }
+  
+  .bi-envelope-at-fill{
+    color: #00c3ff;
+    width: 40px; 
+    height: 40px;
+  }
+  
+  .bi-envelope-at-fill:hover{
+    color: #cc2df4;
+    width: 40px;
+  }
+  
+  .text-reservado{
+    background: #000;
+    color: #fff;
+  }

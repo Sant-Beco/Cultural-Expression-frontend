@@ -1,0 +1,69 @@
+
+.icono producto svg {
+    width: 103px;
+    height: 103px;
+    
+
+}
+
+body {
+    background-image: url("fondo.jpeg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+       }
+       
+    
+    div.container.container{
+        background-color: rgb(231, 30, 3);
+    
+    
+       }
+       
+       div.icono-perfil{
+        background-position: auto;
+        width: 1400px;
+        height: 30px;
+        margin: 29%;
+       }
+
+       
+       .icono-busqueda{
+        width: 1200px;
+        margin: 20%;
+        text-align: right;
+    }
+    .icono-inicio{
+        background-position: auto;
+        width: 7px;
+        height: 40px;
+        margin: 10%;
+        text-align: right;
+
+    }
+    .icono-publicaciones{
+        background-position: auto;
+        width: 7px;
+        height: 40px;
+        margin: 10%;
+        text-align: right;
+
+    }
+    .icono-producto{
+        background-position: auto;
+        width: 7px;
+        height: 40px;
+        margin: 10%;
+        text-align: right;
+
+    }
+    .icono-chat{
+        background-position: auto;
+        width: 7px;
+        height: 40px;
+        margin: 10%;
+        text-align: right;
+    
+}

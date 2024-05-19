@@ -1,0 +1,88 @@
+.primero{
+    background:linear-gradient(to right,#933E2B,8%,#FF1500, #933E2B);
+}
+
+.icono{
+    background-color: #fff;
+    
+}
+
+
+.img-center{
+    width: 130px;
+    height: 130px !important;
+}
+
+
+.tex2{
+    font-size: 20px;
+}
+
+.bi{
+    width: 120px;
+    height: 120px;
+}
+
+.nombre{
+    font-size: 20px;
+}
+
+
+.buscar{
+    width: 30px;
+    height: 30px;
+    
+}
+
+.ico{
+    width:50px;
+    height: 50px;
+}
+
+.list-group-item{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+
+.list-group-item{
+    background:linear-gradient(to right,#933E2B,8%,#FF1500, #933E2B);
+    color: #fff;
+}
+
+.bg-success {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
+  }
+
+.letras{
+    color: #fff;
+}
+
+.busca{
+    width: 100%;
+    background: #fff;
+    border: none;
+    font-size: 20px;
+    padding: 0 10px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 3px 0 0 3px ;
+}
+
+button{
+    width: 4%;
+    background: #fff;
+    border: none;
+    font-size: 12px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+    color: black;
+}
+
+button:hover{
+    background: #d918eb;
+    color: #fff;
+}

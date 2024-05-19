@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(img/Fondo_Cultural_Expression.jpeg);
+    background-position: center center;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand{
+    margin-right: 5px;
+}
+
+.logotipo{
+    width: 110px;
+    height: auto;
+    margin-top: 40px;
+}
+
+.custom-title{
+    margin: 0;
+    font-family: jokerman;
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+.icono-x{
+    position: absolute;
+    top: 25px;
+    right: 25px;
+}
+
+/* Estilos body*/
+
+.contenido{
+    font-family: pompiere;
+    font-size: 20px;
+    color: #fff;
+    padding: 50px;
+
+}
+
+/* Estilos footer*/
+
+.footer{
+    background: linear-gradient(to right,#933E2B,8%,#FF1500, #933E2B);
+    bottom: 0;
+    font-family: pompiere;
+    margin-top: 20px;
+}
+  
+.icono-footer{
+    width: 103px;
+}
+  
+.footer-enlace{
+    color: #000;
+    text-decoration: none;
+}
+  
+.footer-enlace:hover{
+    color: #cc2df4;
+    text-decoration: none;
+}
+  
+.footer-siguenos{
+    display: inline-flex;
+    justify-content: center;
+    font-family: pompiere;
+}
+  
+.texto-footer{
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+  
+.redes a{
+    text-decoration: none;
+}
+  
+.bi-facebook{
+    color: #2430d3;
+    width: 40px; 
+    height: 40px;
+    margin-bottom: 20px;
+}
+  
+.bi-facebook:hover{
+    color: #cc2df4;
+    width: 40px; 
+}
+  
+.bi-instagram{
+    color: #f80f8f;
+    width: 40px; 
+    height: 40px;
+    margin-bottom: 20px;
+}
+  
+.bi-instagram:hover{
+    color: #cc2df4;
+    width: 40px;
+}
+  
+.bi-envelope-at-fill{
+    color: #00c3ff;
+    width: 40px; 
+    height: 40px;
+    margin-bottom: 20px;
+}
+  
+.bi-envelope-at-fill:hover{
+    color: #cc2df4;
+    width: 40px;
+}
+  
+.text-reservado{
+    background: #000;
+    color: #fff;
+    padding: 1px;
+}

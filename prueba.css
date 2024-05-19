@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  #busqueda {
+    width: 300px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+  }
+  
+  #productos {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  #productos li {
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+  }
+  
